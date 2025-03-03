@@ -148,7 +148,7 @@ html {
     height: auto;
     position: relative;
     padding: 50px 0;
-    background-image: url(/img/portada-8.png);
+    background-image: url(../img/portada-8.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -441,7 +441,7 @@ html {
   position: relative;
   padding: 50px 0;
   margin: 0 0 0 0;
-  background-image: url(/img/portada-8-pink.png);
+  background-image: url(../img/portada-8-pink.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -497,7 +497,7 @@ html {
     position: relative;
     padding: 50px 0;
     margin: 50px 0 0 0;
-    background-image: url(/img/portada-8.png);
+    background-image: url(../img/portada-8.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -609,7 +609,7 @@ html {
         height: auto;
         position: relative;
         padding: 20px 0;
-        background-image: url(/img/portada-8.png);
+        background-image: url(../img/portada-8.png);
         background-attachment: fixed;
         background-position: left;
         background-repeat: no-repeat;
