@@ -1,0 +1,392 @@
+:root {
+    --color-blue: #3498db; /* Azul */
+    --color-green: #2ecc71; /* Verde */
+    --color-blackgray: #5c5c5c; /* Gris oscuro */
+    --color-black: #000; /* Gris oscuro */
+    --color-white: #fff; /* Gris oscuro */
+    --color-orange-prim: #f3742f; /* Gris oscuro */
+    --color-pink-farmasi: #f95c6d;
+
+  }
+
+
+  .cont-swp-ventajas2 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: ;
+    position: relative;
+    display: flex;
+
+}
+
+.cont-swp-ventajas2 .swiper {
+    width: 100%;
+    height: auto;
+    padding: 60px 15px 20px 15px;
+    background-color: ;
+  }
+
+.cont-swp-ventajas2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-img-top{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-img-top img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 5px 5px 0 0;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom .txt-vtjs3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-pink-farmasi);
+    padding: 0;
+    text-align: center;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom hr {
+    border: 2px solid var(--color-pink-farmasi);
+    width: 80px;
+    margin: 10px auto;
+
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom .txt-info-vv1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    padding: 0;
+    text-align: start;
+    z-index: 5;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom .txt-info-vv2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding: 0;
+    text-align: start;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-tit-ico{
+    width: 100%;
+    height: auto;
+    padding: 0 10px 10px 0;
+    margin: 0 auto;
+    background-color: var(--color-white);
+    position: relative;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-tit-ico::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 39%; /* Centra el borde en el medio */
+    width: 20%; /* Este es el 50% del ancho del contenedor */
+    border-bottom: 3px solid var(--color-pink-farmasi); /* El borde de 50% */
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-tit-ico .txt-icon{
+    font-size: 30px;
+    color: #000;
+    display: block;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-tit-ico .txt-vtjs3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-pink-farmasi);
+    padding: 0;
+    text-align: center;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-vnt{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    }
+
+    .bg-slid1{
+      background-image: url(/img/port-vent1-tr.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .bg-slid2{
+      background-image: url(/img/port-vent2-tr.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-slid3{
+      background-image: url(/img/port-vent3-tr.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-slid4{
+      background-image: url(/img/port-vent4-tr.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-slid5{
+      background-image: url(/img/port-vent5-tr.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-slid6{
+      background-image: url(/img/port-vent6-tr.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-slid7{
+      background-image: url(/img/port-vent7-tr.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .cont-swp-ventajas2 .swiper-slide .txt-info-vv1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    padding: 0;
+    text-align: start;
+    z-index: 5;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .txt-info-vv2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding: 0;
+    text-align: start;
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-vnt img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    object-fit: cover;
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 0 0 5px 5px;
+    }
+
+
+  .cont-swp-ventajas2 .swiper-slide .box-img-vent2{
+    width: 100%;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+  
+.cont-swp-ventajas2 .swiper-slide .box-img-vent2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  
+
+  .cont-swp-ventajas2 .swiper .swiper-button-previ {
+    position: absolute;
+    top: 6%;
+    left: 92%;
+    width: 40px;
+    height: 40px;
+    background-color: #f7f7f7b5;
+    color: var(--color-pink-farmasi);
+    border-radius: 50%;
+    border: 1px solid var(--color-pink-farmasi);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px; 
+    transform: translateY(-50%);
+  }
+  
+  
+  .cont-swp-ventajas2  .swiper .swiper-button-nexti {
+    position: absolute;
+      top: 6%;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      background-color: #f7f7f7b5;
+      color: var(--color-pink-farmasi);
+      border-radius: 50%;
+      border: 1px solid var(--color-pink-farmasi);
+      cursor: pointer;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      font-size: 20px;   
+      transform: translateY(-50%);
+  }
+
+
+
+  @media(max-width: 500px) {
+
+    .cont-swp-ventajas2 .swiper {
+        width: 100%;
+        height: 100%;
+        padding: 60px 10px 20px 10px;
+        background-color: ;
+      }
+
+  
+.cont-swp-ventajas2 .swiper .swiper-button-previ {
+      position: absolute;
+      top: 5%;
+      left: 75%;
+    
+  }
+  
+.cont-swp-ventajas2 .swiper .swiper-button-nexti {
+    position: absolute;
+    top: 5%;
+    right: 0;
+  
+  }
+
+  
+  }
+  
+  
+  @media(min-width: 501px) and (max-width: 700px){
+  
+    .cont-swp-ventajas2 .swiper {
+      width: 100%;
+      height: 100%;
+      padding: 60px 10px 20px 10px;
+      background-color: ;
+    }
+  
+    .cont-swp-ventajas2 .swiper .swiper-button-previ {
+      position: absolute;
+      top: 6%;
+      left: 82%;
+    
+  }
+  
+  .cont-swp-ventajas2 .swiper .swiper-button-nexti {
+    position: absolute;
+    top: 6%;
+    right: 0;
+  
+  }
+
+  }
+  
+  
+  @media(min-width: 701px) and (max-width: 900px){
+  
+    .cont-swp-ventajas2 .swiper .swiper-button-previ {
+      position: absolute;
+      top: 6%;
+      left: 88%;
+    
+  }
+  
+  .cont-swp-ventajas2 .swiper .swiper-button-nexti {
+    position: absolute;
+    top: 6%;
+    right: 0;
+  
+  }
+
+  
+  
+  }
+  
+  
+  @media(min-width: 901px) and (max-width: 1200px){
+  
+    .cont-swp-ventajas2 .swiper .swiper-button-previ {
+      position: absolute;
+      top: 6%;
+      left: 90%;
+    
+  }
+  
+  .cont-swp-ventajas2 .swiper .swiper-button-nexti {
+    position: absolute;
+    top: 6%;
+    right: 0;
+  
+  }
+
+  
+  }
+
+  @media (max-width: 700px) {
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom .txt-vtjs3 {
+      font-size: 20px;
+
+    }
+
+    .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom .txt-info-vv2 {
+    font-size: 17px;
+    
+  }
+
+  .cont-swp-ventajas2 .swiper-slide .box-slid-info-bottom .txt-info-vv1 {
+    font-size: 18px;
+    
+  }
+  }
